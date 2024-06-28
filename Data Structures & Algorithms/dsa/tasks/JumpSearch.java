@@ -21,8 +21,8 @@ public class JumpSearch {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 4, 7, 9, 11, 15, 18, 21, 25, 30, 35, 40 };
-        int target = 18;
+        int[] arr = { 1, 5, 7, 9, 11, 15, 19, 24, 28, 30, 35, 40 };
+        int target = 15;
         int index = jumpSearch(arr, target);
         if (index != -1) {
             System.out.println("Target " + target + " found at index: " + index);

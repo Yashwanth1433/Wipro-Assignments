@@ -12,8 +12,8 @@ public class LinearSearch {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 4, 2, 9, 6, 5, 1, 7, 3 };
-        int target = 5;
+        int[] arr = { 8, 6, 5, 1, 7, 2, 4, 3 };
+        int target = 1;
 
         int index = linearSearch(arr, target);
 

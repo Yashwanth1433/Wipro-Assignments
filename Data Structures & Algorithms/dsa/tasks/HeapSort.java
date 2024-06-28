@@ -9,7 +9,6 @@ public class HeapSort {
         }
 
         for (int i = n - 1; i > 0; i--) {
-            // Move current root to end
             int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;
@@ -27,7 +26,7 @@ public class HeapSort {
             largest = right;
         }
 
-        // If largest is not root
+        
         if (largest != i) {
             int swap = arr[i];
             arr[i] = arr[largest];
@@ -37,7 +36,7 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
+        int[] arr = { 78, 54, 25, 12, 45, 18, 92 };
         heapSort(arr);
         System.out.println("Sorted array:");
         for (int num : arr) {

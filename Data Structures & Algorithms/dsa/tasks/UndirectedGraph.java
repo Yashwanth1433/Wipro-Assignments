@@ -107,14 +107,12 @@ public class UndirectedGraph {
     public static void main(String[] args) {
     	UndirectedGraph graph = new UndirectedGraph();
 
-        // Adding vertices
         graph.addVertex(0);
         graph.addVertex(1);
         graph.addVertex(2);
         graph.addVertex(3);
         graph.addVertex(4);
 
-        // Adding edges
         graph.addEdge(0, 1);
         graph.addEdge(0, 2);
         graph.addEdge(1, 3);

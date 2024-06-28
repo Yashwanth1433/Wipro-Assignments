@@ -75,7 +75,6 @@ public class Queue<T> {
      while (!queue.isEmpty()) {
          System.out.println(queue.dequeue());
      }
-
      queue.enqueue(40);
      queue.enqueue(50);
 

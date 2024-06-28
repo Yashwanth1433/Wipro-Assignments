@@ -30,8 +30,6 @@ public class BellmanFordAlgorithm {
                 }
             }
         }
-
-        // Check for negative-weight cycles
         for (Edge edge : edges) {
             int vertex1 = edge.vertex1;
             int vertex2 = edge.vertex2;
@@ -42,7 +40,6 @@ public class BellmanFordAlgorithm {
             }
         }
 
-        // Print the shortest distances
         System.out.println("Shortest distances from source vertex " + sourceVertex + ":");
         for (int i = 0; i < numVertices; i++) {
             System.out.println("Vertex " + i + ": " + distance[i]);

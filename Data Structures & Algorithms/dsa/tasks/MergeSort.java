@@ -55,7 +55,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
+        int[] arr = { 84, 44, 25, 12, 22, 11, 90 };
         mergeSort(arr);
         System.out.println("Sorted array:");
         for (int num : arr) {

@@ -12,7 +12,6 @@ public class DynamicArray {
         this.size = 0;
     }
 
-    // Get size of the dynamic array
     public int size() {
         return size;
     }
